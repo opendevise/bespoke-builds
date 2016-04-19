@@ -1,0 +1,60 @@
+{
+  "name": "bespoke-builds",
+  "version": "1.0.0-dev",
+  "description": "Orchestrates builds in a Bespoke.js presentation",
+  "homepage": "https://github.com/opendevise/bespoke-builds",
+  "bugs": "https://github.com/opendevise/bespoke-builds/issues",
+  "author": {
+    "name": "Dan Allen",
+    "url": "https://github.com/mojavelinux"
+  },
+  "main": "./lib/bespoke-builds.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opendevise/bespoke-builds"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "peerDependencies": {
+    "bespoke": ">=1.0.0"
+  },
+  "devDependencies": {
+    "bespoke": "^1.0.0",
+    "bespoke-classes": "^1.0.0",
+    "bespoke-nav": "^1.0.2",
+    "browserify": "^13.0.0",
+    "browserify-istanbul": "^2.0.0",
+    "del": "^2.2.0",
+    "function-bind": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-header": "^1.7.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "istanbul": "^0.4.2",
+    "jasmine-core": "^2.4.1",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "karma": "=0.13.18",
+    "karma-browserify": "^5.0.3",
+    "karma-coverage": "^0.5.5",
+    "karma-jasmine": "^0.3.8",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.3",
+    "socket.io": "=1.3.7",
+    "vinyl-buffer": "1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "bespoke-plugin"
+  ],
+  "readme": "..."
+}
